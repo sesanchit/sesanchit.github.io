@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.intro-section{
+    padding: 20px;
+}
+
+#profile-pic{
+    display: block;
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    transform: scale(0.75);
+    margin: 0 auto;
+}
+
+.name{
+    font-size: 1.3em;
+}
+
+.intro-text{
+    display: block;
+    padding: 30px;
+}
+
+.work-experience{
+    height: 400px;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+span.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+    font-size: 1.2em;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate(  25.0deg); }
+     25% { transform: rotate(-25.0deg); }
+     50% { transform: rotate( 25.0deg); }
+     75% { transform: rotate(-25.0deg); }
+    100% { transform: rotate(  25.0deg); }
+  }
