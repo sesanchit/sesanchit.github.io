@@ -23,8 +23,8 @@ a:hover {
     border: 2px solid #707070;
 }
 
-.name{
-    font-size: 1.3em;
+.display-name{
+    font-size: 1.5em;
 }
 
 .intro-text{
@@ -32,24 +32,47 @@ a:hover {
     padding: 30px;
 }
 
-.work-experience{
-    height: 400px;
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+  font-size: 1.2em;
 }
 
-span.wave {
-    animation-name: wave-animation;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
-    font-size: 1.2em;
+@keyframes wave-animation {
+    0% { transform: rotate(  25.0deg); }
+   25% { transform: rotate(-25.0deg); }
+   50% { transform: rotate( 25.0deg); }
+   75% { transform: rotate(-25.0deg); }
+  100% { transform: rotate(  25.0deg); }
+}
+
+.recommendations-header{
+  background-color: #707070; 
+}
+
+.recommendations-content{
+  min-height: 450px;
+  padding-top: 15px;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+
+
+  .card{
+    background-color: transparent;
+    min-height: 400px;
   }
-  
-  @keyframes wave-animation {
-      0% { transform: rotate(  25.0deg); }
-     25% { transform: rotate(-25.0deg); }
-     50% { transform: rotate( 25.0deg); }
-     75% { transform: rotate(-25.0deg); }
-    100% { transform: rotate(  25.0deg); }
+
+  .card-header{
+    background-color: #00818a;
+  }
+
+  .carousel-indicators li{
+    border: 1px;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;    
   }
