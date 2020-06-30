@@ -199,10 +199,6 @@ span.victory{
   min-height: 50%;
 }
 
-.projects-section{
-
-}
-
 .projects-section .card{
   background-color: white;
   color: black;
@@ -212,6 +208,10 @@ span.victory{
 
 .projects-section .card-body{
   min-height: 320px;
+}
+
+.projects-section .card-body li{
+  font-family: 'Nunito', sans-serif; 
 }
 
 .projects-section .card img{
