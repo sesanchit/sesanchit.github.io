@@ -46,7 +46,7 @@ p{
 
 .intro-section{
   padding: 20px 0;
-  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(gsa.jpg);    
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/gsa.jpg);    
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -191,7 +191,7 @@ span.victory{
 }
 
 .projects-content{
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(work.jpg);    
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/banner.jpg);    
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
