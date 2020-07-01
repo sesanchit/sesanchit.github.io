@@ -87,7 +87,9 @@ span.wave {
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  transform: scale(1.2);
 }
 
 @keyframes wave-animation {
@@ -103,7 +105,8 @@ span.victory{
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
 }
 
 @keyframes victory-animation{
