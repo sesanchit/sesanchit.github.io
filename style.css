@@ -1,21 +1,12 @@
-*{
-  font-family: 'Open Sans', sans-serif;
-}
-
-html,
-body {
+html {
   height: 100%;
-  background-color: #333;
-  color: #fff;
 }
 
 body{
+  background-color: #333;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
   padding: 30px 0;
-}
-
-a,
-a:visited{
-  color: rgba(255, 255, 255, 0.9);
 }
 
 a:focus,
@@ -24,7 +15,7 @@ a:active {
   color: #fff;
 }
 
-h1{
+h1,h2,h3,h4,h5,h6{
   font-family: 'Lato', sans-serif;
 }
 
@@ -51,7 +42,7 @@ p{
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 50%;
+  min-height: 60%;
 }
 
 .intro-section-content{
@@ -68,7 +59,7 @@ p{
 
 .display-name{
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Code', monospace;
 }
 
 .intro-text{
@@ -100,8 +91,8 @@ span.wave {
   100% { transform: rotate(  25.0deg); }
 }
 
-span.victory{
-  animation-name: victory-animation;
+span.win{
+  animation-name: win-animation;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
   display: inline-block;
@@ -109,7 +100,7 @@ span.victory{
   line-height: 1.25rem;
 }
 
-@keyframes victory-animation{
+@keyframes win-animation{
   0% { transform: scale(1); }
   25% { transform: scale(1.2); }
   50% { transform: scale(1); }
@@ -134,30 +125,13 @@ span.victory{
   background-image: none;
 }
 
-.recommendations-section{
-  /* display: none; */
-}
-
-/* .recommendations-header{
-  background-color: #707070; 
-  height: 55px;
-  line-height: 55px;
-}
-
-.recommendations-header span{
-  display: inline-block;
-  vertical-align: middle;
-} */
-
 .recommendations-content{
-  /* min-height: 450px; */
   padding: 15px 0 30px;
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
   .card{
     background-color: transparent;
-    /* min-height: 400px;   */
     border-radius: 0 !important;
   }
 
